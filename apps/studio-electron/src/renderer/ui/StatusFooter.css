@@ -1,0 +1,42 @@
+.status-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 48px;
+    background-color: #f0f0f0;
+    border-top: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    z-index: 100;
+}
+
+/* Minecraft Theme Overrides */
+.status-footer.minecraft-theme {
+    background-color: #1a1a1a;
+    border-top: 4px solid #333;
+    color: #eee;
+    font-family: monospace; /* Fallback for pixel font */
+    image-rendering: pixelated;
+    height: 64px; /* Taller for avatar */
+    gap: 12px;
+}
+
+.status-helper {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.status-content {
+    flex: 1;
+}
+
+.status-text {
+    font-size: 14px;
+    color: #aaddaa; /* Light Creeper Green text */
+    text-shadow: 1px 1px 0 #000;
+}

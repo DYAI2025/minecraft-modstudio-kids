@@ -1,0 +1,19 @@
+{
+  "name": "@kidmodstudio/exporter",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "lint": "echo 'No lint yet' && exit 0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.27",
+    "typescript": "^5.0.0",
+    "vitest": "^4.0.16"
+  },
+  "dependencies": {
+    "@kidmodstudio/core-model": "workspace:^"
+  }
+}

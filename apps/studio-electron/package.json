@@ -1,0 +1,33 @@
+{
+  "name": "@kidmodstudio/studio-electron",
+  "version": "0.0.1",
+  "main": "dist/main/index.js",
+  "scripts": {
+    "build": "vite build",
+    "test": "vitest run",
+    "lint": "echo 'No lint yet' && exit 0",
+    "dev": "echo 'Starting electron dev' && exit 0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "electron": "^28.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^4.0.16"
+  },
+  "dependencies": {
+    "@kidmodstudio/core-model": "workspace:^",
+    "@kidmodstudio/exporter": "workspace:^",
+    "@kidmodstudio/testbot": "workspace:^",
+    "@types/three": "^0.182.0",
+    "@vitejs/plugin-react": "^5.1.2",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.562.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-markdown": "^10.1.0",
+    "tailwind-merge": "^3.4.0",
+    "three": "^0.182.0",
+    "vite": "^7.3.0"
+  }
+}
