@@ -1,6 +1,7 @@
-export * from './schema.js';
-export * from './validate.js';
-export * from './actions.js';
-export * from './reducer.js';
-export * from './parser.js';
-export * from './explain.js';
+export * from './schema';
+export * from './validate';
+export * from './actions';
+export type { AppState } from './reducer';
+export { INITIAL_STATE, rootReducer } from './reducer';
+export * from './parser';
+export * from './explain';

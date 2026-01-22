@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
-import { validateProject } from '../validate.js';
-import { Project } from '../schema.js';
+import { validateProject } from '../validate';
+import { Project } from '../schema';
 
 describe('Project Schema Validation', () => {
   it('should validate a valid minimal project', () => {

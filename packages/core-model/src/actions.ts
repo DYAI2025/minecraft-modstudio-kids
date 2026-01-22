@@ -1,4 +1,4 @@
-import { Block, Item, Recipe, ProjectMeta } from './schema.js';
+import { Block, Item, Recipe, ProjectMeta } from './schema';
 
 export type KidAction =
   | { type: 'UPDATE_META'; payload: Partial<ProjectMeta> }

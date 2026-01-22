@@ -1,4 +1,5 @@
-import { AppState, KidAction } from './index';
+import { AppState } from './reducer'; // import direct to avoid cycle
+import { KidAction } from './actions';
 
 export function explainLastAction(state: AppState): string {
   if (!state.lastAction) {

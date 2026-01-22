@@ -1,5 +1,5 @@
-import { KidAction } from './actions.js';
-import { Project } from './schema.js';
+import { KidAction } from './actions';
+import { Project } from './schema';
 
 export interface AppState {
   project: Project;

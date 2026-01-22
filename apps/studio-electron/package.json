@@ -3,18 +3,21 @@
   "version": "0.0.1",
   "main": "dist/main/index.js",
   "scripts": {
-    "build": "tsc -b ../../packages/core-model/tsconfig.json && vite build",
+    "build": "tsc -b ../../packages/core-model/tsconfig.json && tsc -p tsconfig.electron.json && vite build",
     "test": "vitest run",
     "lint": "echo 'No lint yet' && exit 0",
     "dev": "vite",
     "pack": "electron-builder --dir",
     "dist": "electron-builder"
   },
+  "description": "Minecraft Modding for Kids",
+  "author": "Benjamin Poersch",
   "build": {
     "appId": "com.kidmodstudio.app",
     "productName": "KidMod Studio",
     "copyright": "Copyright © 2024 DYAI",
     "mac": {
+      "identity": null,
       "category": "public.app-category.education",
       "target": [
         "dmg",

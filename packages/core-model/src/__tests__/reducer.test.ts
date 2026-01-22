@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest';
-import { rootReducer, INITIAL_STATE } from '../reducer.js';
-import { Block, Item } from '../schema.js';
-import { KidAction } from '../actions.js';
+import { rootReducer, INITIAL_STATE } from '../reducer';
+import { Block, Item } from '../schema';
+import { KidAction } from '../actions';
 
 describe('Reducer Logic', () => {
     it('should create a block', () => {

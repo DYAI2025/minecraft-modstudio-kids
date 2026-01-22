@@ -1,4 +1,4 @@
-import { ProjectSchema, Project } from './schema.js';
+import { ProjectSchema, Project } from './schema';
 import { z } from 'zod';
 
 export type ValidationResult = 
